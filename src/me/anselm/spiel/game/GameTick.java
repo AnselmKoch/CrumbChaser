@@ -26,7 +26,7 @@ public class GameTick{
         public synchronized void actionPerformed(ActionEvent e) {
             try {
                 gameTime.doGameTick();
-                CrumbChaser.getInstance().getMainFrame().setTitle(CrumbChaser.gameName + " | FPS: " + gameTime.getFpsLastSecond());
+                CrumbChaser.getInstance().getMainFrame().setTitle(CrumbChaser.gameName + " " + CrumbChaser.version + " | FPS: " + gameTime.getFpsLastSecond());
             } catch (Exception exception) {
                 exception.printStackTrace();
             }

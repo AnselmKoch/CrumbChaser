@@ -33,7 +33,6 @@ public class DirectionHelper {
 
         Momentum returnMomentum = new Momentum(0, 0);
 
-
         /**
          * If the entities X-Coordinate is equal to the players X-Coordinate
          */

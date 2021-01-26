@@ -16,6 +16,11 @@ import me.anselm.spiel.world.World;
 import java.awt.*;
 import java.io.IOException;
 
+/**
+ * Version: 0.01
+ * @author Anselm Koch
+ */
+
 public class CrumbChaser {
 
 
@@ -24,6 +29,7 @@ public class CrumbChaser {
      */
     public static Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     public static final String gameName = "CrumbChaser";
+    public static final String version = "v0.01";
     public static final int HEIGHT = screenSize.height, WIDTH = screenSize.width;
     public static final int WORLDHEIGHT = 10000, WORLDWIDTH = 10000;
 
